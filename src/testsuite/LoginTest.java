@@ -24,7 +24,7 @@ public class LoginTest extends Utility {
        //Click on ‘LOGIN’ button
         clickOnElement(By.id("login-button"));
        //Verify the text “PRODUCTS”
-        verifyElements("error","PRODUCT",By.xpath("//span[@class='title']"));
+        verifyElements("error","Products",By.xpath("//span[@class='title']"));
     }
 
     @Test
